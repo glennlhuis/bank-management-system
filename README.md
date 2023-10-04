@@ -37,3 +37,16 @@ Jest will execute the test cases defined in the tests directory and provide feed
 - Transfer money from one customer to another.
 - Check the account balance of a customer.
 - View the total balance of the bank.
+
+## Code Structure
+- `src/bank-management/bank.ts`: Defines the Customer class and Bank class.
+- `tests/bank-test.ts`: Contains unit tests for the program.
+
+## Test Cases
+The following test scenarios are covered.
+
+- Adding and retrieving customer information.
+- Depositing and withdrawing money successfully.
+- Transferring money correctly.
+- Retrieving bank information.
+- Handling errors for invalid inputs and insufficient funds.
